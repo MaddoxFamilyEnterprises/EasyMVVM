@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	 <PropertyGroup>
 		  <TargetFramework>net8.0-windows</TargetFramework>
@@ -9,8 +9,14 @@
 		  <Authors>Sean Maddox</Authors>
 		  <Company>Maddox Family Enterprises</Company>
 		  <Product>EasyMVVM</Product>
+		  <Version>1.0.1</Version>
 		  <Description>A flexible MVVM implementation with Fluent API for managing fields and constraints in your ViewModel.</Description>
 		  <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+		  <PackageProjectUrl>https://github.com/MaddoxFamilyEnterprises/EasyMVVM</PackageProjectUrl>
+		  <RepositoryUrl>https://github.com/MaddoxFamilyEnterprises/EasyMVVM</RepositoryUrl>
+		  <PackageTags>mvvm;wpf;xaml</PackageTags>
+
+		  <PackageReadmeFile>README.md</PackageReadmeFile>
 	 </PropertyGroup>
 
 	 <ItemGroup>
@@ -18,15 +24,6 @@
 		  <EmbeddedResource Remove="EasyMVVM.Tests\**" />
 		  <None Remove="EasyMVVM.Tests\**" />
 		  <Page Remove="EasyMVVM.Tests\**" />
+		  <None Include="docs\README.md" Pack="true" PackagePath="\"/>
 	 </ItemGroup>
-
-	 <ItemGroup>
-		  <Compile Remove="Examples\Readme.cs" />
-	 </ItemGroup>
-
-	 <ItemGroup>
-		  <Content Include="Examples\Readme.cs" />
-	 </ItemGroup>
-
-
 </Project>
