@@ -159,10 +159,6 @@ foreach (var fieldName in container.GetFieldNames())
 
 - `WithConstraint(Func<T, bool> constraint, string errorMessage)`: Adds a constraint to the field.
 
-## Contributing
-
-We welcome contributions to EasyMVVM! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details on how to submit pull requests, report issues, or request features.
-
 ## License
 
 EasyMVVM is licensed under the Mozilla Public License 2.0 (MPL-2.0). See the [LICENSE](LICENSE.md) file for more details.
