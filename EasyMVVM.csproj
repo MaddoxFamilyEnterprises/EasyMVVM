@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	 <PropertyGroup>
+		  <TargetFramework>net8.0-windows</TargetFramework>
+		  <Nullable>enable</Nullable>
+		  <UseWPF>true</UseWPF>
+		  <ImplicitUsings>enable</ImplicitUsings>
+		  <PackageId>Mfe.EasyMVVM</PackageId>
+		  <Authors>Sean Maddox</Authors>
+		  <Company>Maddox Family Enterprises</Company>
+		  <Product>EasyMVVM</Product>
+		  <Description>A flexible MVVM implementation with Fluent API for managing fields and constraints in your ViewModel.</Description>
+		  <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+	 </PropertyGroup>
+
+	 <ItemGroup>
+		  <Compile Remove="EasyMVVM.Tests\**" />
+		  <EmbeddedResource Remove="EasyMVVM.Tests\**" />
+		  <None Remove="EasyMVVM.Tests\**" />
+		  <Page Remove="EasyMVVM.Tests\**" />
+	 </ItemGroup>
+
+	 <ItemGroup>
+		  <Compile Remove="Examples\Readme.cs" />
+	 </ItemGroup>
+
+	 <ItemGroup>
+		  <Content Include="Examples\Readme.cs" />
+	 </ItemGroup>
+
+
+</Project>

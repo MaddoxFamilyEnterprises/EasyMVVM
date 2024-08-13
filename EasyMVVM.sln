@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMVVM", "EasyMVVM.csproj", "{27A2270F-BB7D-47B7-A2EB-18BB4C690E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMVVM.Tests", "EasyMVVM.Tests\EasyMVVM.Tests.csproj", "{25A5CEBF-E033-4892-B833-8C550ABB3736}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A2270F-BB7D-47B7-A2EB-18BB4C690E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A2270F-BB7D-47B7-A2EB-18BB4C690E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A2270F-BB7D-47B7-A2EB-18BB4C690E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A2270F-BB7D-47B7-A2EB-18BB4C690E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A5CEBF-E033-4892-B833-8C550ABB3736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A5CEBF-E033-4892-B833-8C550ABB3736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A5CEBF-E033-4892-B833-8C550ABB3736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A5CEBF-E033-4892-B833-8C550ABB3736}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B37EAAD-03B2-4F2B-B067-EEF7164C519F}
+	EndGlobalSection
+EndGlobal
