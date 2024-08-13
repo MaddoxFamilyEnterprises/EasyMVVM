@@ -165,5 +165,5 @@ We welcome contributions to EasyMVVM! Please see our [Contributing Guidelines](C
 
 ## License
 
-EasyMVVM is licensed under the Mozilla Public License 2.0 (MPL-2.0). See the [LICENSE](LICENSE) file for more details.
+EasyMVVM is licensed under the Mozilla Public License 2.0 (MPL-2.0). See the [LICENSE](LICENSE.md) file for more details.
 
