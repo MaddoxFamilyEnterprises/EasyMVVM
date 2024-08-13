@@ -3,7 +3,6 @@
 using EasyMVVM;
 
 using Xunit;
-using EasyMVVM;
 using System;
 
 public class Test_FieldBuilder {

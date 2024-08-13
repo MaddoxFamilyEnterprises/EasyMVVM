@@ -17,6 +17,7 @@
 		  <PackageTags>mvvm;wpf;xaml</PackageTags>
 
 		  <PackageReadmeFile>README.md</PackageReadmeFile>
+		  <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 	 </PropertyGroup>
 
 	 <ItemGroup>
@@ -25,5 +26,6 @@
 		  <None Remove="EasyMVVM.Tests\**" />
 		  <Page Remove="EasyMVVM.Tests\**" />
 		  <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+		  <None Include="docs\LICENSE.md" Pack="true" PackagePath="\"/>
 	 </ItemGroup>
 </Project>

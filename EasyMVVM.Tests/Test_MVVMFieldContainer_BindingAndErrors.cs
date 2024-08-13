@@ -16,7 +16,7 @@ public class Test_MVVMFieldContainer_BindingAndErrors {
          }
       }
 
-      public event PropertyChangedEventHandler PropertyChanged;
+      public event PropertyChangedEventHandler? PropertyChanged;
    }
 
    [Fact]
