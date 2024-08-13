@@ -24,6 +24,7 @@
 		  <EmbeddedResource Remove="EasyMVVM.Tests\**" />
 		  <None Remove="EasyMVVM.Tests\**" />
 		  <Page Remove="EasyMVVM.Tests\**" />
+		  <None Remove="LICENSE.md" />
 		  <None Include="docs\README.md" Pack="true" PackagePath="\" />
 	 </ItemGroup>
 </Project>
